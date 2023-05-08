@@ -24,4 +24,9 @@ SDD & Project closure Documents:
     Software Design documents.pdf
     PROJECT CLOSURE DOCUMENT.pdf
     
+Project PPT
+    
+    project_ppt_mandar_pimparkar_2261459.pptx
+    
+    
 
