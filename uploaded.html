@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1</title>
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            background-image: url('static/ph5.jpg');
+            background-size: cover;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+    .header__title {
+      font-size: 28px;
+      margin: 0;
+    }
+
+    .header__nav {
+      display: flex;
+    }
+
+    .header__nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .main__subtitle {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .main__text {
+      margin-bottom: 20px;
+    }
+
+    .main__btn {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+    footer {
+            background-color: #333;
+            color: white;
+            padding: 1px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: left;
+            margin-top: 250px;  
+            
+        }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Project Group P1</h1>
+    <nav class="header__nav">
+      <a href="/gallery">Gallery</a>
+      <a href="/">Upload</a>
+    </nav>
+  </header>
+  <main class="main">
+    <h2 class="main__subtitle">You have successfully uploaded your CSV file.</h2>
+    <p class="main__text">Click the button below to open the file:</p>
+    <a href="/gallery" class="main__btn">Open CSV File</a>
+    <p class="main__text">Or, if you want to upload another CSV file, click the button below:</p>
+    <a href="/" class="main__btn">Upload Another CSV File</a>
+  </main>
+  <footer>
+    <p>&copy; 2023 Project Group P1. All rights reserved.</p>
+  </footer>
+</body>
+</html>
